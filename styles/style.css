@@ -4,15 +4,15 @@
 .fonts{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; 
 }
 /* header nav */
 .header{
      max-width: 1200px;
-    height: 700px;
-    border: 2px solid steelblue;
+    height: 680px;
     margin: 0 auto;
-    padding: 100px 120px;
+    padding: 50px 120px;
+    background-color: #dbdada;
 }
 .navbar{
     display: flex;
@@ -20,13 +20,16 @@
 }
 .brand{
     color: rgba(58, 58, 58, 1);
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
 
 } 
 .nav-links{
     margin-left: 20px;
     text-decoration: none;
     color: rgb(99, 93, 93);
+    font-weight: 500;
+    font-size: 17px;
 }
 /* header banner */
 .banner{ 
@@ -63,7 +66,40 @@
      height: 410px;
 }
 .logo{
-    margin-left: 65px;
+    margin-left: 60px;
     margin-top: 65px;
+}
+
+/* main */
+.cart-section{
+    height: 1660px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 196px;
+}
+
+.container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+align-items: center;
+justify-content: center;
+}
+.collection-name{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.electronic{
+    height: 400px;
+    width: 330px;
+    margin:20px;
+}
+.more{
+    text-align: end;
+    margin-top:50px;
+    color: #E02C6D;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 

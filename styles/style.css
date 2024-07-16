@@ -125,3 +125,31 @@ justify-content: center;
     color: #FFFFFF;
     background-color: #E02C6D;
 }
+/* footer */
+.foot{
+    height: 220px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 400px;
+    text-align: center;
+    background-color: #0A0826;
+}
+.social-logo{
+    margin: 0 auto;
+}
+.media-logo{
+  justify-content: center;
+  margin-right: 25px;
+  font-size: 32px;
+  color:#FFFFFF ;
+}
+.foot-heading{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.copyright{
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}

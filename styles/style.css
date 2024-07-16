@@ -9,10 +9,10 @@
 /* header nav */
 .header{
      max-width: 1200px;
-    height: 680px;
+    height: 750px;
     margin: 0 auto;
     padding: 50px 120px;
-    background-color: #dbdada;
+    background-color:;
 }
 .navbar{
     display: flex;
@@ -70,9 +70,9 @@
     margin-top: 65px;
 }
 
-/* main */
+/* main section 1 */
 .cart-section{
-    height: 1660px;
+    height: 1500px;
     width: 800px;
     margin: 0 auto;
     padding: 50px 196px;
@@ -102,4 +102,26 @@ justify-content: center;
     font-weight: bold;
     font-size: 1.5rem;
 }
-
+/* main section 2 */
+.feature-box{
+    height: 270px;
+    max-width: 1110px;
+    padding: 105px 165px;
+    margin: 0 auto;
+    display: flex;
+    gap: 96px;
+}
+.feature-text{
+    font-weight: bold;
+    font-size: 36px;
+}
+.feature-text-02{
+    font-weight: bold;
+    font-size: 16px;
+}
+.feature-btn{
+    width: 145px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}

@@ -132,10 +132,14 @@ justify-content: center;
     margin: 0 auto;
     padding: 50px 400px;
     text-align: center;
-    background-color: #0A0826;
+    background-color:#0A0826;
+    justify-content: center;
+}
+.foot-text{
+ align-items: center;
 }
 .social-logo{
-    margin: 0 auto;
+    align-items: center;
 }
 .media-logo{
   justify-content: center;
